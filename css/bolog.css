@@ -210,6 +210,7 @@ section{
 .grid-div{
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
+    gap: 10px;
 }
 
 .grid-column{
@@ -217,4 +218,34 @@ section{
     background-color: azure;
     width: 1320px;
    
+}
+
+/* section 6 end */
+
+
+/* section 7 start */
+
+.section-7{
+    background-color: #ff000013;
+    width: 1320px;
+    height: 616px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+.section-7-input{
+    border-radius:10px ;
+    
+}
+.input-text{
+   height: 40px;
+   border-radius: 10px;
+   position: ;
+    
+}
+.btn-7{
+    height: 45px;
+    border-radius: 10px ;
+    background-color: red;
+    border-color: none;
 }
